@@ -1,0 +1,10 @@
+@startuml
+class IS_Doble_Logica_2 {
+- Cmatematicas
+- Cingles
+- Cbiologia
+- Ccomputacion
+- promedioUniversitario
+«constructor» IS_Doble_Logica_2()
+}
+@enduml

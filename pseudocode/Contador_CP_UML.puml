@@ -1,0 +1,7 @@
+@startuml
+class CalcularPromedio_Brain {
+-int contador
+-int total
+«constructor» CalcularPromedio_Brain()
+}
+@enduml

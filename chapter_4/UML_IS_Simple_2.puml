@@ -1,0 +1,10 @@
+@startuml
+class IS_Simple_2 {
+- cMatematicas
+- cEspañol
+- cFisica
+- cHistoria
+- promedioEscolar
+«constructor» IS_Simple_2()
+}
+@enduml

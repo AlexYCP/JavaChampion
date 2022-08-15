@@ -1,0 +1,11 @@
+@startuml
+class IS_Anidada_Logica_2{
+- nombre : String
+- c_1 : int
+- c_2 : int
+- c_3 : int
+- c_4 : int
+- promedioFinal : String
+«constructor» IS_Anidada_Logica_2()
+}
+@enduml

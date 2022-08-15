@@ -1,0 +1,19 @@
+@startuml
+class IS_Simple_1 {
+- c_matematicas
+- c_español
+- c_fisica
+- c_historia
+- promedioEscolar
++ setC_matematicas(matematicas: int)
++ getC_matematicas() : int
++ setC_español(español: int)
++ getC_español() : int
++ setC_fisica(fisica: int)
++ getC_fisica() : int
++ setC_historia(historia: int)
++ getC_historia() : int
++ calcularPromedio()
++ imprimirPromedio()
+}
+@enduml

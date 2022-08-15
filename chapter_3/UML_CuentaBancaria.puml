@@ -1,0 +1,9 @@
+@startuml
+class Cuenta2 {
+- nombre : String
+- saldo : double
+- deposito : double
+- retiro : double
+«constructor» Cuenta2()
+}
+@enduml

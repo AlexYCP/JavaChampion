@@ -1,0 +1,22 @@
+@startuml
+class IS_Anidada_Logica {
+- nombre : String
+- c_1 : int
+- c_2 : int
+- c_3 : int
+- c_4 : int
+- promedioFinal : int
++ setNombre(nombre : String)
++ getNombre() : String
++ setC_1(c_1: int)
++ getC_1() : int
++ setC_2(c_2: int)
++ getC_2() : int
++ setC_3(c_3: int)
++ getC_3() : int
++ setC_4(c_4: int)
++ getC_4() : int
++ calcularPromedio()
++ imprimirResultado() : int
+}
+@enduml

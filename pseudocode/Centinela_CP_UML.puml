@@ -1,0 +1,8 @@
+@startuml
+class Centinela_CP_Brain {
+-int contador
+-int total
++«constructor» Centinela_CP_Brain()
+}
+
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+class Test {
+-String nombre
+-int edad
++void setNombre(String nombre)
++String getNombre()
++void setEdad(int edad)
++int getEdad()
+}
+@enduml

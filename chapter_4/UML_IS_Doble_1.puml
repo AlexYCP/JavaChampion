@@ -1,0 +1,19 @@
+@startuml
+class IS_Doble_Logica_1 {
+- c_matematicas
+- c_ingles
+- c_biologia
+- c_computacion
+- promedioUniversitario
++ setC_matematicas(matematicas: int)
++ getC_matematicas() : int
++ setC_ingles(ingles: int)
++ getC_ingles() : int
++ setC_biologia(biologia: int)
++ getC_biologia() : int
++ setC_computacion(computacion: int)
++ getC_computacion() : int
++ calcularPromedio()
++ imprimirPromedio()
+}
+@enduml
